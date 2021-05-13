@@ -1,0 +1,32 @@
+<%= render "shared/header" %>
+<div class='main'>
+  <div class='main-theme'>
+    <h1>
+    Hello!
+    </h1>
+  </div>
+  <div class='main-title'>  
+    <h2>
+    ~Digital Miracle~
+    </h2>
+  </div>  
+  <div class='sub-title'>
+    <h3>
+    You can encounter what you are exicited.
+    </h3>
+  </div>  
+  <div class='rotation-image'>
+    <%= link_to image_tag('miracle-image-earth.png' , size: '250x250'), "/" , class: 'image-miracle' %>
+  </div>
+  <%# 商品一覧 %>
+  <div class='category-contents'>
+    <%= link_to image_tag('miracle-ame.png' , size: '100x100'), "/" , class: 'image-miracle' %><div class='category-title'>Ame</div>
+    <%= link_to image_tag('miracle-yuki.png' , size: '100x100'), "/" , class: 'image-miracle'%><div class='category-title'>Yuki</div>
+    <%= link_to image_tag('miracle-hare.png' , size: '100x100'), "/" , class: 'image-miracle'%><div class='category-title'>Hare</div>
+    <%= link_to image_tag('miracle-kumori.png' , size: '100x100'), "/" , class: 'image-miracle'%><div class='category-title'>Kumori</div>
+    <%= link_to image_tag('miracle-yoru.png' , size: '100x100'), "/" , class: 'image-miracle'%><div class='category-title'>Yoru</div>
+  </div>
+  <%# /商品一覧 %>
+  </div>  
+</div>
+<%= render "shared/footer" %>

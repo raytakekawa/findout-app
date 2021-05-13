@@ -1,24 +1,31 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## アプリケーションの概要
+このアプリケーションでは、ユーザーが偶然の出会いができるようにお手伝いをします。偶然の出会いは、思いも寄らないひらめきや発明を生み出すことがあります。昨今のウェブアプリケーションではとりわけ必然性が優先され、ユーザー自身が知りたいものや探している情報に最短距離で辿り着けるような設計が多いです。
+しかしながら、人生に大切なのは自分で問いを見つけ立てる力なのではないでしょうか。そんな時このアプリケーションでは、日常に潜む不思議や・意味不明なものなど一見意味がないように見える情報を積極的にシェアできるようなものを目指して構想を作っていきました。
 
-Things you may want to cover:
+## URL
 
-* Ruby version
+## 利用方法
+ユーザー登録しログインすれば、投稿できるようになる。
+ホーム画面の下部にある五つのカテゴリー画像を押すとそれぞれランダムにカテゴライズされている商品の一覧表示ができるようになる。
 
-* System dependencies
+## 目指した課題解決
+このアプリケーションでは、ユーザーが偶然の出会いができるようにお手伝いをします。偶然の出会いは、思いも寄らないひらめきや発明を生み出すことがあります。昨今のウェブアプリケーションではとりわけ必然性が優先され、ユーザー自身が知りたいものや探している情報に最短距離で辿り着けるような設計が多いです。
+しかしながら、これからの人生に大切なのは自分で問いを見つけ・立てる力なのではないでしょうか。そんな時このアプリケーションでは、日常に潜む不思議や・意味不明なものなど一見意味がないように見える情報をシェアし、創作やご自身の生活に新たなひらめきをもたらす手助けをします。
 
-* Configuration
 
-* Database creation
+## 洗い出した要件
+https://docs.google.com/spreadsheets/d/1HoDnQAk0yxe22Y3-JSwh7PhdJTnlt7LDMQvex-xztfk/edit#gid=282075926
 
-* Database initialization
+## 実装した機能についての画像やGIFおよびその説明
+[![Image from Gyazo](https://i.gyazo.com/489d1107b9272d8bdd97807619e5cf74.gif)](https://gyazo.com/489d1107b9272d8bdd97807619e5cf74)
 
-* How to run the test suite
+## 実装予定の機能
+今後は、投稿をみたりしたりすればするほどポイントが与えられアプリ内のグレードが上がるようなシステムを導入したい。
+また、その人の投稿に賛同や共感できたら投げ銭できるような機能も実装したい。
 
-* Services (job queues, cache servers, search engines, etc.)
+## データベース設計
+test.dioファイルを参照
 
-* Deployment instructions
-
-* ...
+## ローカルでの動作確認

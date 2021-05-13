@@ -1,0 +1,48 @@
+.main-theme {
+  color: rgb(57, 216, 163);
+  font-family: 'Hind Madurai', sans-serif;
+  font-size: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-title {
+  color: rgb(57, 216, 163);
+  font-family: 'Jost', sans-serif;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.sub-title {
+  color: #5ac0c6;
+  font-family: 'Josefin Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+
+}
+
+.rotation-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20%;
+}
+
+.image-miracle {
+  animation: infinite;
+}
+
+.category-contents {
+  display: flex;
+  justify-content: center;
+  padding-top: 20%;
+  padding-bottom: 25%;
+}
+
+.category-title {
+  font-family: 'Cormorant Garamond', serif;
+}
